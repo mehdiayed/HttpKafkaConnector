@@ -1,0 +1,13 @@
+{
+    "name": "my-first-kafka-connector",
+    "config": {
+        "connector.class": "tutorial.buildon.aws.streaming.kafka.MyFirstKafkaConnector",
+        "first.required.param": "Kafka",
+        "second.required.param": "Connect",
+        "egauge.jwt.url": "https://egauge67897.egauge.es/",
+        "egauge.jwt.username": "owner",
+        "egauge.jwt.password": "000000",
+        "kafka.topic":"egauge-data",
+        "tasks.max": "1"
+    }
+}
